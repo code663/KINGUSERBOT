@@ -55,10 +55,10 @@ def inline_wrapper(func):
                         (
                             InlineQueryResultPhoto(
                                 photo_url=f"img url",
-                                title="🥀 Branded Userbot ✨",
+                                title="🥀 Smart Userbot ✨",
                                 thumb_url=f"img url",
-                                description=f"🌷 Deploy Your Own Branded-Userbot 🌿...",
-                                caption=f"<b>🥀 Welcome › To › Branded 🌷\n✅ Userbot v2.0 ✨...</b>",
+                                description=f"🌷 Deploy Your Own smart-Userbot 🌿...",
+                                caption=f"<b>🥀 Welcome › To › smart 🌷\n✅ Userbot v2.0 ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -74,7 +74,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Branded Userbot❗...\n\nRepo:** <i>repo link/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own smart Userbot❗...\n\nRepo:** <i>repo link/</i>||"
                                 ),
                             )
                         )
